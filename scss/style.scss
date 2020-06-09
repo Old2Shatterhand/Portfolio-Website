@@ -287,6 +287,10 @@ img {
 				align-items: center;
 			}
 
+			li {
+				padding-left: 0.5rem;
+			}
+
 			p {
 				padding: 0.5rem;
 				border-radius: 5px;
@@ -318,7 +322,7 @@ img {
 			}
 
 			.text-input {
-				height: 4rem;
+				height: 3rem;
 				width: 100%;
 				border: solid 1px $dark-color;
 				box-shadow: 0 5px 10px 0 rgba($color: #000000, $alpha: 1);
