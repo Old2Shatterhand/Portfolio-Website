@@ -313,7 +313,7 @@ img {
 			.text-fields {
 				display: grid;
 				grid-template-rows: repeat(5, 1fr);
-				grid-gap: 1.5rem;
+				gap: 1.5rem;
 				margin-bottom: 1.5rem;
 			}
 
@@ -321,9 +321,8 @@ img {
 				height: 4rem;
 				width: 100%;
 				border: solid 1px $dark-color;
-				box-shadow: 0 5px 10px 0 rgba($color: #000000, $alpha: 1.0);
+				box-shadow: 0 5px 10px 0 rgba($color: #000000, $alpha: 1);
 				text-align: center;
-				border-radius: 80%;
 			}
 
 			.message-input {
@@ -333,7 +332,7 @@ img {
 			}
 		}
 
-		button[type='submit'] {
+		button[type="submit"] {
 			width: 100%;
 		}
 	}
@@ -353,7 +352,6 @@ img {
 		}
 	}
 }
-
 
 // Footer
 
@@ -385,4 +383,4 @@ img {
 	}
 }
 
-@import 'media';
+@import "media";
