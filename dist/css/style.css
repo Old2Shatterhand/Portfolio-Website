@@ -366,7 +366,7 @@ img {
   #contact-a .flex-container .text-fields {
     display: grid;
     grid-template-rows: repeat(5, 1fr);
-    gap: 1.5rem;
+    gap: 1rem;
     margin-bottom: 1.5rem; }
   #contact-a .flex-container .text-input {
     height: 3rem;
